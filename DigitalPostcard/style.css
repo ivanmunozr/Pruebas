@@ -1,51 +1,62 @@
+body{
+  background-color: black;
+}
 
+.postcard{
+  background-color: white;
+  width: 550px;
+  height: 350px;
+  margin: 10% auto auto auto;
+  padding: 15px;
+  font-family: 'Chilanka', cursive;
+}
 
-#postcard{
-    width: 600px;
-    height:400px;
+.postcard h1{
+  margin: 0px;
+}
+
+.postcard-header{
+  overflow: hidden;
+}
+
+.postcard-header img{
+  max-width: 60px;
+  float: right;
+}
+
+.postcard-content{
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.left-content{
+  float: left;
+  width: 50%;
+}
+
+.right-content{
+  float: right;
+  width: 50%;
+}
+
+.right-content input{
+  display: block;
+  border: none;
+  border-bottom: solid 1px;
+  font-family: 'Chilanka', cursive;
+  width:250px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 18px;
 }
 
 
-#header{
-    background-color: red;
+.postcard-footer{
+  padding: 10px;
+  text-align: center;
 }
 
-#titulo{
-    background-color:blueviolet;
-    overflow: hidden;
-    width: 30px;
-}
-
-#imagen{
-    float: right;
-    width: 50px;
-    height: 50px;
-}
-
-
-#middle{
-    background-color: gray;
-    display:inline-block;
-}
-
-#content{
-    background-color:green;
-    width: 40%;
-    float: left;
-    display: block;
-}
-
-
-#form{
-    display: block;
-    background-color: yellow;
-    width: 40%;
-    float: right;
-}
-
-
-#footer{
-    background-color: blue;
-    width: 150px;
-    margin: auto;
+.postcard-footer button{
+  font-family: 'Chilanka', cursive;
+  font-size: 18px;
 }

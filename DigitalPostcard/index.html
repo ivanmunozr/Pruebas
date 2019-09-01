@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div id="postcard">
-        <div id="header">
-            <div id="titulo"><h1>My Postcard</h1></div>
-            <div id="imagen"><img src="http://assets.breatheco.de/apis/img/icon/4geeks.png"></div>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <title>Digital Postcard</title>
+  </head>
+  <body>
+    <div class="postcard">
+
+        <div class="postcard-header">
+<img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="">
+          <h1>My Postcard</h1>
         </div>
 
-    <br>
-
-        <div id="middle">
-            <div id="content">
-                <div id="text"><p>Look how awesome! This is a postcard that i reated using HTML5 and CSS3 during my 4Geeks Academy Course</p>
-                <p>This is so cool, can't whait to start doing more stuff</p>
-                </div>
-
-                <div id="form">
-                    <input type="text" name="Some Name" value="Some Name">
-                    <input type="email" name="Some Email" value="Some email">
-                    <input type="text" name="Some Comment" value="Some Comment">
-                </div>
-            </div>
+        <div class="postcard-content">
+          <div class="left-content">
+            <p>Look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+            <p>This is so cool, can't wait to start doing more stuff!</p>
+          </div>
+          <div class="right-content">
+                <input type="text" placeholder="Some Name">
+                <input type="email" placeholder="Some Email">
+                <input type="text" placeholder="Some comment">
+          </div>
         </div>
 
-    <br></br>
-
-        <div id="footer">
-            <button type="button">Send My Postcard</button>
+        <div class="postcard-footer">
+          <button type="button" name="button">Send My Postcard</button>
         </div>
     </div>
-</body>
+  </body>
 </html>
